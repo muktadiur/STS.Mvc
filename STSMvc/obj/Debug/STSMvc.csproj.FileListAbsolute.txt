@@ -1,0 +1,61 @@
+D:\Projects\Rand\STSMvc\STSMvc\bin\STSMvc.dll
+D:\Projects\Rand\STSMvc\STSMvc\bin\STSMvc.pdb
+D:\Projects\Rand\STSMvc\STSMvc\bin\Antlr3.Runtime.dll
+D:\Projects\Rand\STSMvc\STSMvc\bin\EntityFramework.dll
+D:\Projects\Rand\STSMvc\STSMvc\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\Rand\STSMvc\STSMvc\bin\Newtonsoft.Json.dll
+D:\Projects\Rand\STSMvc\STSMvc\bin\System.Net.Http.Formatting.dll
+D:\Projects\Rand\STSMvc\STSMvc\bin\System.Web.Http.dll
+D:\Projects\Rand\STSMvc\STSMvc\bin\System.Web.Http.WebHost.dll
+D:\Projects\Rand\STSMvc\STSMvc\bin\System.Web.Mvc.dll
+D:\Projects\Rand\STSMvc\STSMvc\bin\System.Web.Optimization.dll
+D:\Projects\Rand\STSMvc\STSMvc\bin\System.Web.Providers.dll
+D:\Projects\Rand\STSMvc\STSMvc\bin\System.Web.Razor.dll
+D:\Projects\Rand\STSMvc\STSMvc\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\Rand\STSMvc\STSMvc\bin\System.Web.WebPages.dll
+D:\Projects\Rand\STSMvc\STSMvc\bin\System.Web.WebPages.Razor.dll
+D:\Projects\Rand\STSMvc\STSMvc\bin\WebGrease.dll
+D:\Projects\Rand\STSMvc\STSMvc\bin\EntityFramework.xml
+D:\Projects\Rand\STSMvc\STSMvc\bin\Newtonsoft.Json.xml
+D:\Projects\Rand\STSMvc\STSMvc\bin\System.Net.Http.Formatting.xml
+D:\Projects\Rand\STSMvc\STSMvc\bin\System.Web.Http.xml
+D:\Projects\Rand\STSMvc\STSMvc\bin\System.Web.Http.WebHost.xml
+D:\Projects\Rand\STSMvc\STSMvc\bin\System.Web.Mvc.xml
+D:\Projects\Rand\STSMvc\STSMvc\bin\System.Web.Razor.xml
+D:\Projects\Rand\STSMvc\STSMvc\bin\System.Web.WebPages.xml
+D:\Projects\Rand\STSMvc\STSMvc\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\Rand\STSMvc\STSMvc\bin\System.Web.WebPages.Razor.xml
+D:\Projects\Rand\STSMvc\STSMvc\obj\Debug\STSMvc.dll
+D:\Projects\Rand\STSMvc\STSMvc\obj\Debug\STSMvc.pdb
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\STSMvc.dll
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\STSMvc.pdb
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\Antlr3.Runtime.dll
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\EntityFramework.dll
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\Microsoft.Web.Infrastructure.dll
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\Newtonsoft.Json.dll
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\System.Net.Http.Formatting.dll
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\System.Web.Http.dll
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\System.Web.Http.WebHost.dll
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\System.Web.Mvc.dll
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\System.Web.Optimization.dll
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\System.Web.Providers.dll
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\System.Web.Razor.dll
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\System.Web.WebPages.Deployment.dll
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\System.Web.WebPages.dll
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\System.Web.WebPages.Razor.dll
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\WebGrease.dll
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\EntityFramework.xml
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\Newtonsoft.Json.xml
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\System.Net.Http.Formatting.xml
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\System.Web.Http.xml
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\System.Web.Http.WebHost.xml
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\System.Web.Mvc.xml
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\System.Web.Razor.xml
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\System.Web.WebPages.xml
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\System.Web.WebPages.Deployment.xml
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\System.Web.WebPages.Razor.xml
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\obj\Debug\STSMvc.csprojResolveAssemblyReference.cache
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\obj\Debug\STSMvc.dll
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\obj\Debug\STSMvc.pdb
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\STS.Models.dll
+D:\New Projects\Robin\STSMvc\STSMvc\STSMvc\bin\STS.Models.pdb

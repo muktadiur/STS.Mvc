@@ -1,0 +1,47 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<!--header start-->
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+<head>
+    <title>
+        @*@RenderSection("title", required: true)*@
+    </title>
+
+    @Styles.Render("~/Content/themes/base/css")
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("head", required: false)
+    @*<link rel="icon" href="@Url.Content(@"~\Content\Images\favicon.ico")" type="image/x-icon" />*@
+
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<!--header end-->
+<body>
+    <div id="outer-wrapper" class="ui-helper-clearfix">
+        <div id="inner-wrapper" class="ui-helper-clearfix">
+            <!--banner start-->
+            <div id="banner-container" class="login">
+                @RenderSection("banner", required: false)
+            </div>
+            <!--banner end-->
+            <!--menu start-->
+            <div id="menu-container" class="login">
+                @RenderSection("menu", required: false)
+            </div>
+            <!--menu end-->
+            <!-- content -->
+            <div id="contents">
+                <!-- this div may contain differnet module contents-->
+                @RenderBody()
+                @RenderSection("scripts", required: false)
+            </div>
+            <!--content end-->
+            <!--footer start-->
+            <div id="footer">
+                @RenderSection("footer", required: false)
+            </div>
+            <!--footer end-->
+        </div>
+    </div>
+</body>
+</html>

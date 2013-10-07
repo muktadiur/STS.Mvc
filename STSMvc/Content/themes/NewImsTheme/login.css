@@ -1,0 +1,90 @@
+﻿#inner-wrapper #banner-container.login
+{
+    background-color: #C5C19D;
+    background-image:url(../../Images/Brand-Logo-White.png);
+}
+div#menu-container.login
+{
+    border-radius: 0;
+}
+
+.login-content .welcome-message h1
+{
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.login-content .content
+{
+    background-color: #C5C19D;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid 4px #00AEEF;
+
+    font-size: 11px;
+    font-family: Verdana;
+}
+
+.login-content .input-group
+{
+    padding-top: 5px;
+}
+
+.login-content .label, .login-content .input, .login-content .button
+{
+    float: left;
+}
+
+.login-content .label
+{
+    width: 100px;
+    padding-left: 50px;
+}
+
+.login-content .input
+{
+    width: 250px;
+}
+
+.login-content .button
+{
+    padding-left: 50px;
+}
+
+.login-content .input input[type='text'], .login-content .input input[type='password']
+{
+    width: 100%;
+}
+
+.login-content
+{
+    border: none;
+    width: 600px;
+    margin: 50px auto;
+    font-weight: bold;
+}
+
+.login-content .right input input[type="checkbox"], .login-content .right.checkbox-container input
+{
+    width: 14px;
+    border: 0px;
+}
+.login-content input.login-submit-button
+{
+    width: 100px;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #00AEEF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+}
+
+.login-content input.login-submit-button:hover
+{
+    background-color: #002868;
+}
+
+
+

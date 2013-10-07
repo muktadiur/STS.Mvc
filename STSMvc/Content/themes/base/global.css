@@ -1,0 +1,175 @@
+﻿/********** Common Font Style  ************/
+body
+{
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    color: black;
+}
+
+/********** CSS style for common text style ************/
+
+/********** HEADER ************/
+h1, h2, h3, h4, h5, h6
+{
+    text-align: left;
+    text-decoration: none;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 2.4em;
+}
+h2
+{
+    font-size: 2.2em;
+}
+h3
+{
+    font-size: 2.0em;
+}
+h4
+{
+    font-size: 1.8em;
+}
+h5
+{
+    font-size: 1.5em;
+}
+h6
+{
+    font-size: 1.4em;
+}
+
+/********** CSS style for common paragraph ************/
+p
+{
+    padding: 0.8em 0em;
+    text-align: justify;
+}
+/********** CSS style for common span ************/
+
+/********** CSS style for common paragraph span ************/
+p span
+{
+    text-align: left;
+    font-weight: bold;
+}
+p span.red
+{
+    color: #F00;
+}
+p span.italic
+{
+    font-style: italic;
+}
+p input
+{
+    vertical-align: middle;
+}
+
+/*css for common label style*/
+label
+{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 2px;
+    text-align: left;
+    font-size: 1.4em;
+}
+
+/*css for common used class*/
+.left
+{
+    float: left;
+}
+.right
+{
+    float: right;
+}
+.bold
+{
+    font-weight: bold;
+}
+.font-weight-normal
+{
+    font-weight: normal;
+}
+
+/********** Width style  ************/
+.width-all
+{
+    width: 100%;
+}
+.width-half
+{
+    width: 50%;
+}
+.width-40-percent
+{
+    width: 40%;
+}
+.width-60-percent
+{
+    width: 60%;
+}
+
+
+/********** text align style  ************/
+.text-align-left
+{
+    text-align: left;
+}
+.text-align-right
+{
+    text-align: right;
+}
+.text-align-center
+{
+    text-align: center;
+}
+
+/********** icons  ************/
+.ims-icon-small
+{
+    width: 112px;
+    height: 31px;
+    background-image: url(Images/ims-small.gif);
+}
+
+/********** Differnt font color  ************/
+.color-white
+{
+    color: white;
+}
+.color-light-black
+{
+    color: #634329;
+}
+.color-light-brown
+{
+    color: #913222;
+}
+.color-light-red
+{
+    color: #e44c16;
+}
+.color-yellow
+{
+    color: #E44C16;
+}
+.color-blue
+{
+    color: #00257A;
+}
+
+
+/********** Common border style  ************/
+.border-top-red { border-top: 0px solid #913222; }
+.border-top-yellow { border-top: 0px solid #fcae16; }
+.boder-top-light-brown { border-top: 1px solid #DDD5CC; color: #8F8F8F;}
+.boder-bottom-light-brown { border-bottom: 1px solid #DDD5CC; }
+
+
+
+

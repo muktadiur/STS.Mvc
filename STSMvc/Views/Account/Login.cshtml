@@ -1,0 +1,66 @@
+﻿@model STSMvc.Models.LoginModel
+
+@{
+    Layout = "~/Views/Account/_Layout.cshtml";
+}
+@*@section title{IMS Pricing Information :: Login}*@
+@section head{
+    @Html.Partial("_Head")
+}
+@section banner{
+    @Html.Partial("_Banner")
+}
+
+@using (Html.BeginForm(new {ReturnUrl = ViewBag.ReturnUrl}))
+{
+    <div style="color: red">@Html.ValidationSummary(true)</div>
+    @Html.AntiForgeryToken()
+    <div class="login-content">
+    <div class="welcome-message">
+        <h1>
+            Welcome. Please login.</h1>
+    </div>
+    <div class="content">
+        
+        <div class="ui-helper-clearfix input-group">
+            <div class="label">
+                User
+            </div>
+            <div class="input">
+               @Html.TextBoxFor(model => model.UserName)
+            </div>
+        </div>
+        <div class="ui-helper-clearfix input-group">
+            <div class="label">
+                Password
+            </div>
+            <div class="input">
+                @Html.PasswordFor(model => model.Password)
+            </div>
+            <div class="button">
+                <input class="login-submit-button ui-button ui-button-text-only ui-widget ui-helper-clearfix"
+                    type="submit" value="Login" />
+            </div>
+        </div>
+        <div class="ui-helper-clearfix input-group">
+            <div class="label">
+                Remember me
+            </div>
+            <div class="input">
+                @Html.CheckBox("IsPersistLogin")
+            </div>
+        </div>
+    </div>
+</div>
+}
+
+
+@*@Html.ActionLink("Federation Metadata", "FederationMetadata", "STS");*@
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+@section footer{
+    @Html.Partial("_Footer")
+}

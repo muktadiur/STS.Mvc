@@ -1,0 +1,22 @@
+.ddsmoothmenu { height: 25px; background: #ffffff; width: 100%; text-align: left; }
+.ddsmoothmenu ul { z-index: 100; margin: 0; padding: 0; list-style-type: none; }
+.ddsmoothmenu ul li { position: relative; display: inline; float: left; }
+.ddsmoothmenu ul li a { display: block; /*color: #66c0ef; */padding: 8px 10px; border-right: 1px solid #ffffff;border-bottom: 0px solid #ffffff;border-right: 1px solid #ffffff; text-decoration: none; font-size: 1.1em; font-weight: normal; }
+* html .ddsmoothmenu ul li a { display: inline-block; }
+
+/*.ddsmoothmenu ul li selected, .ddsmoothmenu ul li hover, .ddsmoothmenu ul li hover { background: url(../../Images/right.png); background-repeat:no-repeat; color:#ffffff; }
+.ddsmoothmenu ul li a.selected, .ddsmoothmenu ul li a.hover, .ddsmoothmenu ul li a:hover { background: url(../../Images/left.png); background-repeat:no-repeat; background-color:#66c0ef; color:#ffffff; }*/
+.ddsmoothmenu ul li ul { position: absolute; left: 0; display: none; visibility: hidden; }
+.ddsmoothmenu ul li ul li { display: list-item; float: none; }
+.ddsmoothmenu ul li ul li ul { top: 0; }
+.ddsmoothmenu ul li ul li a {  font: normal 13px Verdana; width: 180px; padding: 5px; margin: 0; border-top-width: 0; border-bottom: 1px solid gray; }
+* html .ddsmoothmenu { height: 1%; }
+/*.ddsmoothmenu ul li ul li hover{ background: url(../../Images/right.png);background-repeat:no-repeat; color:#ffffff;}*/
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+.downarrowclass { position: absolute; top: 12px; right: 7px; }
+.rightarrowclass { position: absolute; top: 6px; right: 5px; }
+/* ######### CSS for shadow added to sub menus  ######### */
+.ddshadow { position: absolute; left: 0; top: 0; width: 0; height: 0; background: silver; }
+.toplevelshadow { opacity: 0.8; }
+

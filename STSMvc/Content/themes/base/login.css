@@ -1,0 +1,18 @@
+﻿/***** CSS Document for Login  *****/
+/***** Content Layout  *****/
+/*.login-content { width: 350px; margin: 50px auto; border: 1px solid #6B7073; background-color:#EBEDEC;}*/
+.login-header { line-height: 25px; text-align: center; border-bottom: 1px solid #913222; background-color: #007cde; font-weight: bold; color: #ffffff; }
+
+.login-content .left { padding-left: 20px; }
+.login-content .right { padding-right: 20px; width: 200px; }
+
+.login-content .left, .login-content .right { padding-bottom: 10px; }
+
+
+.login-content .right input { width: 180px; margin: 0px;/* border: 1px solid #6B7073;*/ }
+
+.login-message { padding: 2px 2px 6px; color: red; height: 12px; text-align: center; }
+.login-message span { font-size: 1em; }
+
+.login-footer { padding: 5px; }
+

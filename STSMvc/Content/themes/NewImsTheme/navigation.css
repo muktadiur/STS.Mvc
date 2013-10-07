@@ -1,0 +1,59 @@
+﻿#menu-container ul#menu a {
+    font-family: verdana,calibri,sans-serif;
+}
+
+#menu-container
+{
+    background-image: url("Images/bg_navglobal_cap.gif");
+    background-repeat: repeat-x;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    height: 43px;
+    width: 100%;
+    border: none;
+}
+
+#menu-container ul#menu > li:first-child a
+{
+    border-top-left-radius: 10px 10px;
+}
+
+#menu-container ul#menu li li a
+{
+    background-color: #FFFFFF;
+    color: #002868;
+}
+
+#menu-container ul#menu li li a:hover
+{
+    background-color: #00AEEF;
+    color: #FFFFFF;
+}
+
+#menu-container ul#menu > li > a
+{
+    cursor: pointer;
+    float: left;
+   
+    font-size: 14px;
+    height: 33px;
+    padding: 10px 20px 0;
+    color: #FFFFFF;
+}
+
+#menu-container ul#menu  > li > a:hover
+{
+    background-image: url("Images/bg_navglobal_ovr.gif");
+    color: #002868;
+}
+
+#menu-container ul#menu li a
+{
+    border: none;
+}
+
+div#menu-container ul#menu li a.selected
+{
+    background: url("Images/bg_navglobal_sel.gif");
+    color: #FFFFFF;
+}

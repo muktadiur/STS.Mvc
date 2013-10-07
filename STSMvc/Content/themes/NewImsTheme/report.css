@@ -1,0 +1,213 @@
+﻿/*** Common ***/
+
+table.report, .report-filter, .latest-price-key-container
+{
+    font-size: 9px;
+}
+
+.latest-price-filter-container .header,
+.latest-price-report-container .header,
+.latest-price-key-container .header
+{
+    padding: 5px;
+    background-color: #00AEEF;
+    color: #FFFFFF;
+}
+
+.latest-price-filter-container,
+.latest-price-report-container,
+.latest-price-key-container
+{
+    border: #002868 solid 1px;
+}
+
+
+#report-title {
+    font-weight: bold;
+    color: #00AEEF;
+    padding: 10px 5px 10px 0;
+}
+/*******************************************************/
+
+/*** Report Table ***/
+
+html .latest-price-report-container .table-container
+{
+    overflow: auto;
+    max-height: 400px;
+}
+
+table.report
+{
+    width: 98%;
+}
+
+table.report th, table.report td
+{
+    border: #FFFFFF solid 1px;
+    
+}
+
+table.report th, table.report td
+{
+    padding: 5px 2px 5px 2px;
+}
+
+table.report thead tr
+{
+    background-color: #002868;
+    color: #FFFFFF;
+}
+
+table.report tbody tr
+{
+    background-color: #D5E4F3;
+}
+
+table.report th.indicator, table.report td.indicator
+{
+    border-left: none;
+}
+
+/*******************************************************/
+
+/*** Report Filter ***/
+ .multiselect-item-container {
+     background-color: #FFFFFF;
+     max-height: 150px;
+     z-index: 100;
+ }
+
+.report-filter .filter-label, .report-filter .filter-field
+{
+    display: inline-block;
+    float: left;
+}
+
+.report-filter .filter-label
+{
+    width: 30%;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 5px;
+    min-height: 1px;
+}
+
+.report-filter .filter-field
+{
+    width: 65%;
+}
+
+.report-filter
+{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    height: 20px;
+}
+
+.multiselect-wrapper.filter-field .multiselect-count, .multiselect-wrapper.filter-field .multiselect-item-container
+{
+    padding: 2px;
+    border: #888888 solid 1px;
+    min-width: 146px;
+}
+
+.latest-price-filter-container
+{
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.latest-price-filter-container .report-filter
+{
+    padding-left: 5px;
+}
+
+/*******************************************************/
+
+/*** Key ***/
+.latest-price-key-container {
+    font-weight: bold;
+}
+.latest-price-key-container td {
+    padding: 5px;
+}
+
+/*******************************************************/
+/*** Report Button ***/
+
+.button
+{
+    color: #002868;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #D5E4F3;
+    border: #00AEEF solid 1px;
+    cursor: pointer;
+    text-align: center;
+}
+
+div.button:hover
+{
+    color: #FFFFFF;
+    background-color: #00AEEF;
+    border-color: #002868;
+}
+
+/*******************************************************/
+
+/*** Export ***/
+.export-button
+{
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: bottom;
+}
+/*******************************************************/
+
+/*** Report Flags ***/
+.list-price-flag
+{
+    color: green;
+}
+
+.non-list-price-flag
+{
+}
+
+img.indicator
+{
+    padding-left: 5px;
+    display: inline;
+    background-color: transparent;
+}
+
+table.report td.price-data, table.report th.price-data
+{
+    border-right-width: 0;
+    padding-right: 0;
+}
+
+table.report td.comparison-flag, table.report th.comparison-flag
+{
+    border-left-width: 0;
+    padding-left: 0;
+}
+
+/*******************************************************/
+
+
+/************ Positon **************/
+.top-3
+{
+    position: relative;
+    top: 3px;
+    background-color: transparent;
+}
+.top-5
+{
+    position: relative;
+    top: 5px;
+    background-color: transparent;
+}
+

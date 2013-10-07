@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STSMvc", "STSMvc\STSMvc.csproj", "{DA9DFDEA-4A09-4E55-B1D2-874DE8D31F6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STS.Models", "STS.Models\STS.Models.csproj", "{0CCA91E3-1378-45C5-B2D4-D7A8D4A581B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA9DFDEA-4A09-4E55-B1D2-874DE8D31F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA9DFDEA-4A09-4E55-B1D2-874DE8D31F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA9DFDEA-4A09-4E55-B1D2-874DE8D31F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA9DFDEA-4A09-4E55-B1D2-874DE8D31F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CCA91E3-1378-45C5-B2D4-D7A8D4A581B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CCA91E3-1378-45C5-B2D4-D7A8D4A581B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CCA91E3-1378-45C5-B2D4-D7A8D4A581B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CCA91E3-1378-45C5-B2D4-D7A8D4A581B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

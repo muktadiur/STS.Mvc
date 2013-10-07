@@ -1,0 +1,11 @@
+D:\New Projects\Robin\STSMvc\STSMvc\STS.Models\bin\Debug\STS.Models.dll.config
+D:\New Projects\Robin\STSMvc\STSMvc\STS.Models\bin\Debug\STS.Models.dll
+D:\New Projects\Robin\STSMvc\STSMvc\STS.Models\bin\Debug\STS.Models.pdb
+D:\New Projects\Robin\STSMvc\STSMvc\STS.Models\bin\Debug\EntityFramework.dll
+D:\New Projects\Robin\STSMvc\STSMvc\STS.Models\bin\Debug\EntityFramework.xml
+D:\New Projects\Robin\STSMvc\STSMvc\STS.Models\obj\Debug\STS.Models.dll
+D:\New Projects\Robin\STSMvc\STSMvc\STS.Models\obj\Debug\STS.Models.pdb
+D:\New Projects\Robin\STSMvc\STSMvc\STS.Models\obj\Debug\STS.Models.csprojResolveAssemblyReference.cache
+D:\New Projects\Robin\STSMvc\STSMvc\STS.Models\obj\Debug\STS.Models.Migrations.initmigration.resources
+D:\New Projects\Robin\STSMvc\STSMvc\STS.Models\obj\Debug\STS.Models.csproj.GenerateResource.Cache
+D:\New Projects\Robin\STSMvc\STSMvc\STS.Models\obj\Debug\STS.Models.Migrations.DefaultNavnullable.resources

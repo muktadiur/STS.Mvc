@@ -1,0 +1,55 @@
+﻿/* Standard*/
+.ims-cyan-bg {
+    background-color: #00AEEF;
+}
+
+.ims-darkblue-bg {
+    background-color: #002868;
+}
+
+.ims-black-bg {
+    background-color: #000000;
+}
+
+.ims-gray-bg {
+   background-color: #848484;
+}
+
+.fg-ims-cyan {
+    color: #00AEEF;
+}
+
+.fg-ims-darkblue {
+    color: #002868;
+}
+
+.ims-black-fg {
+    color: #000000;
+}
+
+.fg-ims-gray {
+   color: #848484;
+}
+/* Standard End*/
+/*Acent*/
+.fg-ims-orange {
+   color: #F98F1E;
+}
+/*Acent End*/
+
+/*Lead*/
+
+/*Lead End*/
+
+/*Background*/ 
+.fg-ims-ivory {
+    color: #EAE2CA;
+}
+
+.bg-ims-lightblue {
+    color: #D5E4F3;
+}
+/*Background End*/
+
+
+

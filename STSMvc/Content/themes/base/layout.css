@@ -1,0 +1,69 @@
+﻿/***** CSS Document for layout *****/
+#outer-wrapper, body { background-color: #d4d4d4; color: black; }
+#outer-wrapper { margin: 0px; padding: 0px; width: 100%; height: auto; }
+
+/***** Dashboard Css Starts *****/
+#inner-wrapper { margin: 0px auto; padding: 0px; width: 970px; height: auto; background-color: #ffffff; /*border: 1px solid #999;*/ }
+#inner-wrapper #banner-container { margin: 0px; padding: 0px; height: 80px;  background-image:url(../../Images/Brand-Logo-Blue.png); background-repeat:no-repeat; background-position:97% 50%; }
+#inner-wrapper #contents { width: 100%; height: auto; }
+
+/* Global and Local loading*/
+.globalLoading { z-index: 9999; display: none; width: 125px; position: absolute; left: 46%; font-size: 1.2em; }
+.globalLoading img { vertical-align: middle; margin: 2px; }
+
+#globalBlocker { height: 100%; width: 100%; z-index: 2147483647; position: absolute; top: 0; left: 0; background-color: gray; -ms-filter: "alpha(opacity=10)"; filter: alpha(opacity=10); -moz-opacity: .1; -khtml-opacity: .1; opacity: .1; }
+
+.contentLoading { position: absolute; filter: alpha(opacity=90); z-index: 9998; text-align: center; display: none; }
+.contentLoading img { top: 45%; position: relative; }
+
+/********* Widget styles ******************/
+.widget { margin-bottom: 5px; padding: 5px; margin-right: 5px; overflow: hidden; height: 100%; }
+
+.widget .widget-head { padding-top: 5px; overflow: hidden; width: 100%; vertical-align: middle; padding-bottom: 5px; }
+.widget-head a.collapse { float: left; display: inline; }
+.widget .widget-head .widget-title { padding: 0 5px; float: left; display: inline; vertical-align: text-top; }
+
+.widget .widget-content { }
+.widget .widget-content { padding: 0 0px; border-top: 1px solid #AAA; }
+
+
+
+#banner-container .banner-title { width: 75%; float: left; padding-top: 25px; padding-left: 10px; font-family:Verdana; font-size:16px; color:#838488; font-weight:bold; }
+#banner-container .banner-title h3 span { font-size: 1em; }
+#banner-container .banner-title h3 a { font-size: .5em; text-decoration: none; }
+#banner-container .banner-title h3 a:hover { text-decoration: underline; }
+#banner-container .company-info { width: 22%; float: right; padding-top: 14px; }
+#banner-container .company-info .company-logo { width: 188px; background-image: url(Images/company-logo.jpg); height: 32px; text-indent: -9999px; }
+
+
+
+
+
+/********* Analysis Navigation Contents Start ******************/
+
+.analysis-table-container { width: 100%; padding: 5px 0px; }
+.analysis-chart-container { padding: 10px 0px; }
+
+/*Analysis Chart styles */
+.analysis-chart-container .header, .analysis-chart-container .chart { margin: 2px 5px; }
+.analysis-chart-container .header { padding: 0px 20px; }
+.analysis-chart-container .header select { width: 150px; }
+
+/*Trend Chart */
+.trend-chart-caption { padding: 10px 0px 5px 55px; text-align: left; color: #634329; }
+
+/*Report Info widget */
+.selection-summary { padding: 5px; padding-left: 10px; }
+.selection-summary span { font-size: 1em; }
+
+
+
+.trend-table-container { width: 954px; padding: 5px 0px; overflow-x: auto; overflow-y: hidden; }
+
+.padding-left-20px { padding-left: 20px; }
+.padding-left-120px { padding-left: 120px; }
+
+.margin-left-20px { margin-left: 20px; }
+.margin-left-120px { margin-left: 120px; }
+
+/********* Analysis Navigation Contents  END ******************/

@@ -1,0 +1,91 @@
+﻿@import "login.css";
+@import "navigation.css";
+@import "color.css";
+@import "filter.css";
+@import "home.css";
+
+/**********
+    Colors
+    IMS Stone: #C5C19D
+    Orange: #F98F1E
+*/
+
+/* Font: Start*/
+html body div#outer-wrapper
+{
+    font-family: Verdana,"Officina Sans Book" , serif;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: Verdana,Georgia,serif;
+    color: #00AEEF;
+    font-weight: normal;
+}
+/* Font: End*/
+
+/* General: Start */
+
+a
+{
+    color: #00AEEF;
+}
+
+a:hover, a:visited:hover
+{
+    color: #002868;
+}
+
+/*a:visited
+{
+    color: #4FBABE;
+}*/
+
+#inner-wrapper #banner-container .banner-title
+{
+    float: right;
+    padding-right: 5%;
+    color: #FFFFFF;
+}
+
+#inner-wrapper #banner-container
+{
+    background-position: 5% 50%;
+}
+
+#inner-wrapper
+{
+    width: 960px;
+}
+
+/* General: End */
+
+/********** BreadCrumb: Start */
+#divBreadCrumb a
+{
+    color: #00AEEF;
+    text-decoration: none;
+}
+
+#divBreadCrumb a:hover
+{
+    text-decoration: underline;
+}
+
+#divBreadCrumb
+{
+    text-align: right;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    border-bottom: solid 1px #002868;
+}
+
+/********** BreadCrumb: End */
+
+div.button-div
+{
+    display: inline-block;
+    cursor: pointer;
+}
+.item img:hover{ cursor: pointer;}

@@ -1,0 +1,156 @@
+﻿table.home-page
+{
+    table-layout: fixed;
+    width: 98%;
+    margin: 0 auto;
+}
+
+table.home-page td
+{
+    padding-bottom: 20px;
+}
+
+table.home-page td h5 {
+    font-size: 1.3em;
+}
+
+table.home-page tr.graphics .graphics
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+table.home-page tr.graphics .graphics img
+{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+table.home-page tr.content td
+{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+table.home-page tr.content td .item-group-head, 
+table.home-page tr.content td .item-wrapper,
+table.home-page tr.content td .list-item-wrapper
+{
+    margin-left: 10px;
+    margin-right: 10px; /*background-color: #F1E3C5;*/
+    width: 260px;
+}
+
+table.home-page tr.content td .item-wrapper
+{
+    border-radius: 10px 10px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table.home-page tr.content td .item-wrapper .text:hover
+{
+    color: #002868;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+table.home-page tr.content td.quick-links .item-wrapper
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+table.home-page tr.content td.quick-reports .item-wrapper
+{
+    border: solid #00AEEF 1px;
+}
+
+table.home-page tr.content td.quick-reports .item-wrapper:hover
+{
+    background-image: url("Images/bg_quick-report.png");
+    background-repeat: repeat-x;
+}
+
+table.home-page tr.content td.quick-reports .item-wrapper:hover .text
+{
+    color: #002868;
+}
+
+table.home-page tr.content td .item img
+{
+    vertical-align: middle;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+table.home-page tr.content td.quick-reports .item img
+{
+    width: 40px;
+    height: 40px;
+}
+
+table.home-page tr.content td.quick-links .item img
+{
+    width: 55px;
+    height: 55px;
+}
+
+table.home-page tr.content td .item .text
+{
+    display: inline;
+    padding-left: 10px;
+    width: 180px;
+    vertical-align: middle;
+    font-size: 1.14em;
+}
+
+table.home-page tr.content td .item-group-head
+{
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    background-image: url("Images/bg_homepage_headers.png");
+    color: #002868;
+    width: auto;
+}
+
+ul.supporting-documents-list
+{
+    margin-left: 25px;
+    list-style: none;
+}
+
+ul.supporting-documents-list li
+{
+    margin-top: 5px;
+    vertical-align: middle;
+    background-image: url("Images/bullet-dark-blue.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+    line-height: 20px;
+}
+
+ul.supporting-documents-list li a
+{
+    text-decoration: none;
+}
+
+ul.supporting-documents-list li a:hover
+{
+    text-decoration: underline;
+}
+
+
+.pr-news-item,.pr-news-more,.pr-news-pharmaquery {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 9px;
+}
+
+.pr-news-pharmaquery {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
